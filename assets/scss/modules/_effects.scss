@@ -1,5 +1,5 @@
 /* Grow Rotate */
-.hvr-grow-rotate {
+.hvr-grow {
   display: inline-block;
 
   -moz-osx-font-smoothing: grayscale;
@@ -17,11 +17,11 @@
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
-.hvr-grow-rotate:hover,
-.hvr-grow-rotate:focus,
-.hvr-grow-rotate:active {
-  -webkit-transform: scale(1.1) rotate(4deg);
-          transform: scale(1.1) rotate(4deg);
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Buzz Out */
